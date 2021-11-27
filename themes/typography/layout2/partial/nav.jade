@@ -1,0 +1,62 @@
+div#site-nav.site-title-links
+    ul
+        li
+            if is_home()
+                a.current(href=config.root)= __('Home')
+            else
+                a(href=config.root)= __('Home')
+        li
+            if is_archive()
+                a.current(href=config.root + config.archive_dir)= __('Archive')
+            else
+                a(href=config.root + config.archive_dir)= __('Archive')
+        - if (site.categories.length > 0) {
+        li
+            if is_current('categories/')
+                a.current(href=config.root + config.category_dir)= __('Categories')
+            else
+                a(href=config.root + config.category_dir)= __('Categories')
+        - }
+        - if (site.tags.length > 0) {
+        li
+            if is_current('tags/')
+                a.current(href=config.root + config.tag_dir)= __('Tags')
+            else
+                a(href=config.root + config.tag_dir)= __('Tags')
+        - }
+        include ../mixins
+        +make_page_links()
+        li.soc
+            if theme.github
+                a(href="https://github.com/" + theme.github, target="_blank", rel="noopener noreferrer")
+                    i.fa.fa-github &nbsp;
+            if theme.twitter
+                a(href="https://twitter.com/" + theme.twitter, target="_blank", rel="noopener noreferrer")
+                    i.fa.fa-twitter &nbsp;
+            if theme.coolapk
+                a(href="https://www.coolapk.com/u/" + theme.coolapk, target="_blank", rel="noopener noreferrer")
+                    i.fa.fa-coolapk &nbsp;
+            if theme.acfun
+                a(href="https://www.acfun.cn/u/" + theme.acfun, target="_blank", rel="noopener noreferrer")
+                    i.fa.fa-acfun &nbsp;
+            if theme.cloudmusic
+                a(href="https://music.163.com/#/user/home?id=" + theme.cloudmusic, target="_blank", rel="noopener noreferrer")
+                    i.fa.fa-cloudmusic &nbsp;
+            if theme.zhihu
+                a(href="https://www.zhihu.com/people/" + theme.zhihu, target="_blank", rel="noopener noreferrer")
+                    i.fa.fa-zhihu &nbsp;
+            if theme.instagram
+                a(href="https://www.instagram.com/" + theme.instagram, target="_blank", rel="noopener noreferrer")
+                    i.fa.fa-instagram &nbsp;
+            if theme.weibo
+                a(href="https://weibo.com/u/" + theme.weibo, target="_blank", rel="noopener noreferrer")
+                    i.fa.fa-weibo &nbsp;
+            if theme.email
+                a(href="mailto:" + theme.email, target="_blank", rel="noopener noreferrer")
+                    i.fa.fa-envelope &nbsp;
+            if theme.rss
+                a(href=config.url + "/" + theme.rss, target="_blank", rel="noopener noreferrer")
+                    i.fa.fa-rss &nbsp;
+    div.visible-lg.visible-md.visible-sm.site-nav-footer
+        br.site-nav-footer-br
+        include footer

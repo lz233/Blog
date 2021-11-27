@@ -1,0 +1,16 @@
+footer
+    - var currYear = new Date().getYear() + 1900;
+    p &copy;&nbsp;
+        !=currYear
+        | &nbsp;
+        a(target="_blank", href=config.url,  rel="noopener noreferrer")!=theme.author ? theme.author : config.author ? config.author : config.title
+    p Theme&nbsp;
+        a(target="_blank", href="https://github.com/SumiMakito/hexo-theme-typography", rel="noopener noreferrer") Typography
+        | &nbsp;by&nbsp;
+        a(target="_blank", href="https://www.keep.moe", rel="noopener noreferrer") Makito
+    p Background&nbsp;
+        a(target="_blank", href="https://www.pixiv.net/artworks/64584603", rel="noopener noreferrer") Ameagari
+        | &nbsp;by&nbsp;
+        a(target="_blank", href="https://www.pixiv.net/users/488766", rel="noopener noreferrer") Mifuru
+    p Proudly published with&nbsp;
+        a(target="_blank", href="https://hexo.io", rel="noopener noreferrer") Hexo
