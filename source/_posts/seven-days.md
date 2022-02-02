@@ -32,17 +32,17 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 1.png %}
+{% asset_img 1.webp %}
 
 开头就是一副令人羡慕的魔都场景~~（为什么要说羡慕呢）~~。根据图中的标志物找了好一会，我才在地图上找到这个地方。
 
-{% asset_img 1-1.png %}
+{% asset_img 1-1.webp %}
 
 > [百度地图](https://map.baidu.com/@13522104.107078683,3640295.41422638,18.73z) [百度地图全景](https://map.baidu.com/@13522408.78,3640276.0599999996,21z,87t,-91.26h#panoid=09000300121901261115021797G&panotype=street&heading=111.32&pitch=-8.85&l=21&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09000300121901261115021797G) [百度地图建模](https://map.baidu.com/@13522552.089907248,3640273.2900513727,21z,87t,-91.26h)
 
 ---
 
-{% asset_img 2.png %}
+{% asset_img 2.webp %}
 
 这个建筑大家都很熟悉，是 B 站的总部，不用多说。
 
@@ -50,7 +50,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 3.png %}
+{% asset_img 3.webp %}
 
 这个地方好不容易才找到，根据原 PV 拍摄的视角来看，应该是在黄浦江对岸拍摄的。考虑到黄浦江近对岸没有高大的建筑，初步猜测使用无人机拍摄。
 
@@ -58,7 +58,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 4.png %}
+{% asset_img 4.webp %}
 
 根据弹幕在药草园北侧。
 
@@ -66,45 +66,45 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 5.png %}
+{% asset_img 5.webp %}
 
 这个地点在地图上没有，但是可以大致推测位于如下方位。
 
-{% asset_img 5-1.png %}
+{% asset_img 5-1.webp %}
 
 ---
 
-{% asset_img 6.png %}
+{% asset_img 6.webp %}
 
 这个就在黄浦江对面啦。从全景看，和 PV 还是会有差距呢。
 
-{% asset_img 6-1.png %}
+{% asset_img 6-1.webp %}
 
 > [百度地图](https://map.baidu.com/@13530109.35,3643161.49,18.78z) [百度地图全景](https://map.baidu.com/@13530109.35,3643161.49,21z,87t,-70.11h#panoid=09000300121709061247305595B&panotype=street&heading=70.1&pitch=0&l=21&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09000300121709061247305595B)
 
 ---
 
-{% asset_img 7.png %}
+{% asset_img 7.webp %}
 
 通过全景找不到。等实地探访罢。
 
 ---
 
-{% asset_img 8.png %}
+{% asset_img 8.webp %}
 
 初步猜测在这一块，具体还得等实地探访。
 
-{% asset_img 8-1.png %}
+{% asset_img 8-1.webp %}
 
 > [百度地图](https://map.baidu.com/@13532257.48,3644209.7600000002,21z,87t,-41.03h#panoid=09000300121708241141525851Y&panotype=street&heading=109.67&pitch=6.08&l=21&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09000300121708241141525851Y)
 
 ---
 
-{% asset_img 9.png %}
+{% asset_img 9.webp %}
 
 找到了地方，但是没找到拍摄的角度。
 
-{% asset_img 9-1.png %}
+{% asset_img 9-1.webp %}
 
 有可能在这拍的？
 
@@ -112,7 +112,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 10.png %}
+{% asset_img 10.webp %}
 
 此处看了下 B 站的弹幕，推测应该在徐汇滨江绿地。
 
@@ -120,7 +120,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 11.png %}
+{% asset_img 11.webp %}
 
 这个很好找，因为它不在市中心嘛。
 
@@ -128,7 +128,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 12.png %}
+{% asset_img 12.webp %}
 
 路牌太明显了啦……
 
@@ -136,7 +136,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 13.png %}
+{% asset_img 13.webp %}
 
 根据弹幕，在人民公园？
 
@@ -144,7 +144,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 14.png %}
+{% asset_img 14.webp %}
 
 应该是翠华餐厅，哪一家不太清楚。
 
@@ -152,7 +152,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 15.png %}
+{% asset_img 15.webp %}
 
 看到隧道上的字了嘛~
 
@@ -162,11 +162,11 @@ tags: [bilibili,随笔]
 
 
 
-{% asset_img 16.png %}
+{% asset_img 16.webp %}
 
 找到了大概的方位，没找到拍摄地点，根据原 PV 来看，也不可能是无人机拍摄。初步推断是因为建模和全景太旧了，等实地探访。
 
-{% asset_img 16-1.png %}
+{% asset_img 16-1.webp %}
 
 > [Google Earth](https://earth.google.com/web/@31.2347066,121.51237476,67.07100504a,0d,35y,-79.00606914h,89.83451842t,0r)
 >
@@ -174,19 +174,19 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 17.png %}
+{% asset_img 17.webp %}
 
 盲猜外滩，太黑了不好找。
 
 ---
 
-{% asset_img 18.png %}
+{% asset_img 18.webp %}
 
 没找到。（哭
 
 ---
 
-{% asset_img 19.png %}
+{% asset_img 19.webp %}
 
 不确定。根据弹幕在正大广场。
 
@@ -194,7 +194,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 20.png %}
+{% asset_img 20.webp %}
 
 不知道是哪家……根据弹幕是正大广场的。等实地探访。
 
@@ -202,19 +202,19 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 21.png %}
+{% asset_img 21.webp %}
 
 找不到…… Google Earth 上相似的地方太多了。
 
 ---
 
-{% asset_img 22.png %}
+{% asset_img 22.webp %}
 
 也没找到……
 
 ---
 
-{% asset_img 23.png %}
+{% asset_img 23.webp %}
 
 根据群友的推理，大概在 13 号线淮海中路站。
 
@@ -222,7 +222,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 24.png %}
+{% asset_img 24.webp %}
 
 匹配了最像的视角，但大概和原视频不是同一个视角，等实地探访。
 
@@ -230,7 +230,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 25.png %}
+{% asset_img 25.webp %}
 
 应该在延安东路隧道。
 
@@ -238,13 +238,13 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 26.png %} 
+{% asset_img 26.webp %} 
 
 > [百度地图全景](https://map.baidu.com/@13526928.51,3642864.75,21z,87t,80.43h#panoid=0900030012200821102433633Q3&panotype=street&heading=349.67&pitch=-1.2&l=21&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=0900030012200821102433633Q3)
 
 ---
 
-{% asset_img 27.png %}
+{% asset_img 27.webp %}
 
 大悦城的摩天轮？
 
@@ -252,7 +252,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 28.png %}
+{% asset_img 28.webp %}
 
 不用多说是迪士尼（
 
@@ -260,7 +260,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 29.png %}
+{% asset_img 29.webp %}
 
 啊这也很熟悉了，想必大家都去过。
 
@@ -268,7 +268,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 30.png %}
+{% asset_img 30.webp %}
 
 有字就很明显啦！
 
@@ -276,7 +276,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 31.png %}
+{% asset_img 31.webp %}
 
 应该是这家。
 
@@ -284,7 +284,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 32.png %}
+{% asset_img 32.webp %}
 
 地点变换很快，两个地点相隔很远（
 
@@ -292,7 +292,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 33.png %}
+{% asset_img 33.webp %}
 
 南京东路是步行街，所以没全景。
 
@@ -300,7 +300,7 @@ tags: [bilibili,随笔]
 
 ---
 
-{% asset_img 34.png %}
+{% asset_img 34.webp %}
 
 圣三一堂门前。
 
