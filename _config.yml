@@ -136,3 +136,7 @@ deploy:
   type: git
   repo: 'https://lz233@github.com/lz233/lz233.github.io.git'
   branch: master
+
+lazyload:
+  enable: true
+  loadingImg: /statics/placeholder.png
