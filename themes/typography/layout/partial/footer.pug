@@ -1,0 +1,18 @@
+footer
+    - var currYear = new Date().getYear() + 1900;
+    p &copy;&nbsp;
+        !=currYear
+        | &nbsp;
+        a(target="_blank", href=config.url,  rel="noopener noreferrer")!=theme.author ? theme.author : config.author ? config.author : config.title
+    p Theme&nbsp;
+        a(target="_blank", href="https://github.com/SumiMakito/hexo-theme-typography", rel="noopener noreferrer") Typography
+        | &nbsp;by&nbsp;
+        a(target="_blank", href="https://www.keep.moe", rel="noopener noreferrer") Makito
+    p Background&nbsp;
+        a(target="_blank", href="https://www.pixiv.net/artworks/35304111", rel="noopener noreferrer") そんな平和
+        | &nbsp;by&nbsp;
+        a(target="_blank", href="https://www.pixiv.net/users/780081", rel="noopener noreferrer") 気分屋39
+    p Proudly published with&nbsp;
+        a(target="_blank", href="https://hexo.io", rel="noopener noreferrer") Hexo
+    p Licensed under&nbsp;
+        a(target="_blank", href="https://creativecommons.org/licenses/by-sa/4.0", rel="noopener noreferrer") CC BY-SA 4.0
