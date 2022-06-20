@@ -2,9 +2,9 @@ $backgroundColor: #FCFAF2 !default;
 $foregroundColor: #373C38 !default;
 
 $fontList: "Source Han Serif CN", "Source Han Serif SC",
-  "Source Han Serif TC", "PMingLiu", serif !default;
+  "Source Han Serif TC", "PMingLiu", "STSong", serif !default;
 $titleFontList: "HiraMinProN-W6", "Source Han Serif CN", "Source Han Serif SC",
-  "Source Han Serif TC", "PMingLiu", serif !default;
+  "Source Han Serif TC", "PMingLiu", "STSong", serif !default;
 $verticalPrimaryPaddingTopPatch: 0;
 $verticalSecondaryPaddingTopPatch: 1px;
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600");
@@ -358,6 +358,13 @@ blockquote{
   border-left: 1px solid;
   font-family: $titleFontList;
   font-size: 18px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid;
 }
 
 footer {
