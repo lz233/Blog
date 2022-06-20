@@ -1,10 +1,8 @@
-$backgroundColor: #2e405b !default;
-$foregroundColor: #ffffff !default;
-$backgroundColorDark: #2e405b;
-$foregroundColorDark: #ffffff;
-$fontList: "Source Sans Pro", "Roboto", "Helvetica", "Helvetica Neue",
-  "Source Han Sans SC", "Source Han Sans TC", "PingFang SC", "PingFang HK",
-  "PingFang TC", sans-serif !default;
+$backgroundColor: #FCFAF2 !default;
+$foregroundColor: #373C38 !default;
+
+$fontList: "Source Han Serif CN", "Source Han Serif SC",
+  "Source Han Serif TC", serif !default;
 $titleFontList: "HiraMinProN-W6", "Source Han Serif CN", "Source Han Serif SC",
   "Source Han Serif TC", serif !default;
 $verticalPrimaryPaddingTopPatch: 0;
@@ -12,7 +10,16 @@ $verticalSecondaryPaddingTopPatch: 1px;
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600");
 @import "animation";
 
-html,body,span,p,h1,h2,h3,h4,h5,h6 {
+html,
+body,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $fontList;
   color: $foregroundColor;
 }
@@ -64,8 +71,13 @@ h6 {
 body {
   font-size: 18px;
   line-height: 1.5em;
-  background: #F1F4ED url(https://cdn.jsdelivr.net/gh/lz233/src.lz233.github.io/image/35304111_p0.jpg) no-repeat fixed bottom center !important;
-  background-size:cover !important;
+
+  @if lightness($backgroundColor) >50 {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACFJREFUeNpiZGBg4GegAsBlCD8TqSYNQg2Mo6FEBAAIMACdPABtrSW/IQAAAABJRU5ErkJggg==");
+  } @else {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUeNpi/P//Py8DpQCXISBxJlING4QaGEdDiQgAEGAAg8sST3LGZYoAAAAASUVORK5CYII=");
+  }
+
   background-repeat: repeat;
   background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
@@ -195,11 +207,10 @@ body {
   font-weight: bold;
   font-style: normal;
   margin: 0;
-  /*防止 footer 重叠*/
-  padding: 0px 0;
+  padding: 60px 0;
   text-align: left;
   position: fixed;
-  bottom: 50px;
+  bottom: 20px;
 }
 
 .site-title-links ul {
@@ -323,7 +334,7 @@ a {
   margin: 0 10px 0 0;
 }
 
-img{
+img {
   display: block;
   max-width: 100%;
   height: auto;
