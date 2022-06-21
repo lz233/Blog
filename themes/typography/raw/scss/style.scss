@@ -360,11 +360,29 @@ blockquote{
   font-size: 18px;
 }
 
+td, th {
+  text-align: center;
+  padding: 3px;
+}
+
+tr {
+
+}
+
+table {
+  border-bottom: 1px solid;
+  width: 100%
+}
+
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
     border-top: 1px solid;
+}
+
+path {
+  fill: $foregroundColor;
 }
 
 footer {

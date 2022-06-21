@@ -3,14 +3,11 @@ title: 友人
 date: 2021-03-14 02:28:04
 ---
 
-<img src="index/header.svg" type="image/svg+xml">
-<a href="https://blog.779.moe">
-<img src="index/1.svg" type="image/svg+xml">
-</a>
-<a href="https://www.linesoft.top">
-<img src="index/2.svg" type="image/svg+xml">
-</a>
-<a href="https://mlgmxyysd.meowcat.org/">
-<img src="index/3.svg" type="image/svg+xml">
-</a>
-<img src="index/footer.svg" type="image/svg+xml">
+|              好耶！(按时间排序)              |
+| :------------------------------------------: |
+|     [Yuko's Blog](https://blog.779.moe)      |
+| [双霖 - LineSoft](https://www.linesoft.top)  |
+| [MlgmXyysd's Cat Nest](https://www.neko.ink) |
+|          [鱼雨昱](https://yuu.ink/)          |
+|      [Cynosura](https://blog.fonx.xyz)       |
+
