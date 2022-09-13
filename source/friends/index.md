@@ -18,4 +18,5 @@ date: 2021-03-14 02:28:04
 |   [Aaki's Notes](https://mikan.bangdream.moe)    |
 |         [抹茶酱の日常](https://matce.cn)         |
 |      [ShinoMoe笔记本](https://shinomoe.xyz)      |
+|      [Yuuta's Blog](https://blog.yuuta.moe)      |
 
