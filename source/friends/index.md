@@ -9,7 +9,7 @@ date: 2021-03-14 02:28:04
 |   [双霖 - LineSoft](https://www.linesoft.top)    |
 |   [MlgmXyysd's Cat Nest](https://www.neko.ink)   |
 |            [鱼雨昱](https://yuu.ink)             |
-|        [Cynosura](https://blog.fonx.xyz)         |
+|         [Cynosura](https://cynosura.one)         |
 | [XiaoMengXin's Blog](https://blog.salt-fish.moe) |
 |   [ShiSheng's Blog](https://blog.shisheng.icu)   |
 |        [羽韵酱的小站](https://lelinus.cn)        |
@@ -19,4 +19,5 @@ date: 2021-03-14 02:28:04
 |         [抹茶酱の日常](https://matce.cn)         |
 |      [ShinoMoe笔记本](https://shinomoe.xyz)      |
 |      [Yuuta's Blog](https://blog.yuuta.moe)      |
+|        [Warbler's Tea](https://uguisu.ch)        |
 
