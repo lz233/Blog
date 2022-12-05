@@ -76,7 +76,7 @@ mixin make_pager()
                     i.fa.fa-angle-double-right
 
 mixin makeHomeHeader()
-    if page.current == 1
+    if page.current >=1
         - site.pages.each(function (page) {
             if page.title.includes("header")
                 div.post-container
