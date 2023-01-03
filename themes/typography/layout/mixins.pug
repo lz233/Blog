@@ -75,14 +75,6 @@ mixin make_pager()
                     | &nbsp;
                     i.fa.fa-angle-double-right
 
-mixin makeNav()
-    if page.current >=1
-        - site.pages.each(function (page) {
-            if page.title.includes("nav")
-                div.post-container
-                    p.post-abstract!= page.content
-        - });
-
 mixin makeHomeHeader()
     if page.current >=1
         - site.pages.each(function (page) {

@@ -138,5 +138,5 @@ deploy:
   branch: master
 
 lazyload:
-  enable: true
+  enable: false
   loadingImg: /statics/placeholder.png
