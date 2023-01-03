@@ -43,7 +43,7 @@ mixin make_post(item, is_detail)
 mixin make_page_links()
     if site.pages
         - site.pages.each(function (page) {
-            unless page.title.includes("header")
+            unless (page.title=="header" | page.title=="nav")
                 li
                     if is_current(page.path)
                         a.current(href=config.root+page.path)= page.title
@@ -74,6 +74,14 @@ mixin make_pager()
                     a(role="navigation",href=url_for(next),aria-label=__('next'))= __('next')
                     | &nbsp;
                     i.fa.fa-angle-double-right
+
+mixin makeNav()
+    if page.current >=1
+        - site.pages.each(function (page) {
+            if page.title.includes("nav")
+                div.post-container
+                    p.post-abstract!= page.content
+        - });
 
 mixin makeHomeHeader()
     if page.current >=1
