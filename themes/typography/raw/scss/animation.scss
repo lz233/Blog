@@ -243,7 +243,7 @@
   animation: fadein-top 1s ease-out;
 }
 
-.swiftDown{
+.swiftDown {
   -webkit-animation: swift-down 1s ease-out; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: swift-down 1s ease-out; /* Firefox < 16 */
   -ms-animation: swift-down 1s ease-out; /* Internet Explorer */
@@ -251,8 +251,8 @@
   animation: swift-down 1s ease-out;
 }
 
-.swiftDownReversed{
-  -webkit-animation: swift-down 1s reverse ease-out ; /* Safari, Chrome and Opera > 12.1 */
+.swiftDownReversed {
+  -webkit-animation: swift-down 1s reverse ease-out; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: swift-down 1s reverse ease-out; /* Firefox < 16 */
   -ms-animation: swift-down 1s reverse ease-out; /* Internet Explorer */
   -o-animation: swift-down 1s reverse ease-out; /* Opera < 12.1 */
