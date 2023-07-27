@@ -23,4 +23,5 @@ date: 2021-03-14 02:28:04
 |  [ObservatoryX](https://observatoryx.github.io)  |
 |         [晨鹤部落格](https://chenhe.me)          |
 |       [Kevin's Blog](https://kevintan.pro)       |
+|     [ℂ𝕚𝕔𝕒𝕕𝕒𝟘𝟘𝟘](https://www.cicada000.work)      |
 
