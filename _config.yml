@@ -48,6 +48,8 @@ relative_link: false
 future: true
 highlight:
   enable: false
+prismjs:
+  enable: false
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
