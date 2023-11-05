@@ -5,6 +5,8 @@ desc: "第一次完整参加 Hackergame！"
 tags: [笔记,CTF]
 ---
 
+{% asset_img 0-1.webp %}
+
 基于巧合~~（交友不慎）~~，今年终于完整参加了一次 Hackergame。其实往年也有参加，不过当时还是高中，时间不太够，只是做下签到题草草了事。
 
 [官方的 Writeups](https://github.com/USTC-Hackergame/hackergame2023-writeups) 其实已经比较完整了，这里写几题完成方法和官方不太相同（一般更简单）的 Writeups。点击题目标题可以跳转到题目和官方题解。
@@ -36,6 +38,33 @@ async function setMove(x, y) {
 在 Chrome 中，直接右键 JS 资源，复写这个文件并把判断代码删除即可。
 
 {% asset_img 1-1.webp %}
+
+### [🪐 流式星球](https://github.com/USTC-Hackergame/hackergame2023-writeups/blob/master/official/%F0%9F%AA%90%20%E6%B5%81%E5%BC%8F%E6%98%9F%E7%90%83)
+
+我不是很懂为什么你们题目的代码都用 OpenCV 了，题解不是 OpenCV（
+
+```python
+import cv2
+import numpy as np
+
+def restore_video(bin_file, restored_video, frame_width, frame_height, frame_count):
+    buffer = np.fromfile(bin_file, dtype=np.uint8)
+    total_pixels = buffer.size // 3
+    padding_needed = np.prod((frame_count, frame_height, frame_width, 3)) - buffer.size
+    buffer = np.pad(buffer, (0, padding_needed), mode='constant')
+    buffer = buffer.reshape((frame_count, frame_height, frame_width, 3))
+    fourcc = cv2.VideoWriter_fourcc(*'XVID')
+    out = cv2.VideoWriter(restored_video, fourcc, 60.0, (frame_width, frame_height))
+    for i in range(frame_count):
+        out.write(buffer[i])
+    out.release()
+
+if __name__ == "__main__":
+    frame_width = 427
+    frame_height = 759
+    frame_count = 9999
+    restore_video("video.bin", "restored_video.mp4", frame_width, frame_height, frame_count)
+```
 
 ### [Komm, süsser Flagge](https://github.com/USTC-Hackergame/hackergame2023-writeups/tree/master/official/Komm%2C%20s%C3%BCsser%20Flagge)
 
