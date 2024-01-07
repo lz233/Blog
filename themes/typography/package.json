@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'No tests' && exit",
-    "build": "node-sass raw/scss -o source/css --output-style compressed && postcss source/css -u autoprefixer -r",
+    "build": "sass raw/scss:source/css --style=compressed && postcss source/css/*.css -u autoprefixer -r",
     "scss-compile": "npm run build",
-    "watch": "node-sass -w raw/scss -o source/css"
+    "watch": "sass -w raw/scss:source/css"
   },
   "repository": {
     "type": "git",
@@ -32,9 +32,9 @@
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-pug": "^3.0.0",
-    "node-sass": "^8.0.0",
     "postcss": "^8.4.19",
     "postcss-cli": "^10.0.0",
+    "sass": "^1.69.7",
     "yamljs": "^0.3.0"
   }
 }

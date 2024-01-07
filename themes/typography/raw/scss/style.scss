@@ -342,13 +342,13 @@ img {
 
 @media screen and (orientation: landscape) {
   .post-container img {
-    padding: 2em;
+    padding: 0.5em 1em 0.5em 1em;
   }
 }
 
 @media screen and (orientation: portrait) {
   .post-container img {
-    padding: 1em 0 1em;
+    padding: 0.5em 0 0.5em 0;
   }
 }
 
